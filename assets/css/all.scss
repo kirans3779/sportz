@@ -8,8 +8,7 @@ body {
     height: 90vh;
     background-image: linear-gradient(147deg, #ea14ec -2.59%, #1246ce 100.83%);
     z-index: 1;
-    // background-image: var(--Gradient-2, ,url(../img/Desktop\ Top\ BG.svg));
-}
+    }
 
 img {
     max-width: 100%;
@@ -20,6 +19,7 @@ img {
     background-image: url("../img/DesktopTopBG.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     z-index: 999;
     height: 100%;
 }

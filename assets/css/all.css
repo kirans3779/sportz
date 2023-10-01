@@ -19,6 +19,7 @@ img {
   background-image: url("../img/DesktopTopBG.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   z-index: 999;
   height: 100%;
 }
